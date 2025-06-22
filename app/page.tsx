@@ -377,7 +377,7 @@ export default function Home() {
               Contact Me
             </a>
             <a
-              href="/Dina_Marlina_Siagian_CV.pdf" // Pastikan path file CV Anda benar (misal: public/Dina_Marlina_Siagian_CV.pdf)
+              href="https://drive.google.com/file/d/1OTw98AUwY11L30ZZ4-FAPjC0Mo6T71s6/view?usp=sharing" // Pastikan path file CV Anda benar (misal: public/Dina_Marlina_Siagian_CV.pdf)
               download // Menambahkan atribut download untuk memaksa download
               className="px-10 py-3 rounded-lg border border-white inline-block cursor-pointer text-lg font-medium
                          text-white bg-transparent transition-colors duration-300
