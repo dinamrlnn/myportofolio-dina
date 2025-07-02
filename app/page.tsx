@@ -227,6 +227,14 @@ export default function Home() {
       demoLink: "https://dinasiagian.github.io/aroma-kopi-di-sudut-kota//",
     },
     {
+      title: "StudyBuddyku",
+      description:
+        "An intelligent study planner that helps students stay focused and organized through smart scheduling, task prioritization, and the Pomodoro Technique.",
+      image: "/images/project/StudyBuddyku.png",
+      technologies: ["TypeScript", "React", "Tailwind CSS"],
+      demoLink: "https://pomodoro-planner-two.vercel.app/",
+    },
+    {
       title: "Rumah Kreatif Toba",
       description:
         "Solo UI redesign of the Rumah Kreatif Toba website in Figma, aimed at enhancing functionality.",
