@@ -551,6 +551,18 @@ class App {
         text: "Koperasi Bintang Tapanuli",
       },
       {
+        image: "/images/project/11.png",
+        text: "StudyBuddyku",
+      },
+      {
+        image: "/images/project/12.png",
+        text: "StudyBuddyku",
+      },
+      {
+        image: "/images/project/13.png",
+        text: "StudyBuddyku",
+      },
+      {
         image: "/images/project/9.png",
         text: "Ongoing",
       },
