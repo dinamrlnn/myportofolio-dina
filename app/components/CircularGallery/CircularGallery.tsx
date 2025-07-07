@@ -563,6 +563,18 @@ class App {
         text: "StudyBuddyku",
       },
       {
+        image: "/images/project/14.png",
+        text: "HealthyDash",
+      },
+      {
+        image: "/images/project/15.png",
+        text: "HealthyDash",
+      },
+      {
+        image: "/images/project/16.png",
+        text: "HealthyDash",
+      },
+      {
         image: "/images/project/9.png",
         text: "Ongoing",
       },

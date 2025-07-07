@@ -219,6 +219,14 @@ export default function Home() {
   // Data untuk Featured Projects
   const featuredProjects = [
     {
+      title: "HealthyDash",
+      description:
+        "I built HealthyDash as a solo project to simplify healthy meal ordering and boost online visibility for health businesses through a user-friendly design.",
+      image: "/images/project/HealthyDash HomePage.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      demoLink: "https://dinasiagian.github.io/healthydash/index.html",
+    },
+    {
       title: "Aroma Kopi Di Sudut Kota",
       description:
         "A user-friendly landing page for online coffee ordering. This solo project empowers coffee shops to boost efficiency and sales.",
@@ -229,7 +237,7 @@ export default function Home() {
     {
       title: "StudyBuddyku",
       description:
-        "An intelligent study planner that helps students stay focused and organized through smart scheduling, task prioritization, and the Pomodoro Technique.",
+        "A solo project developing an intelligent study planner that helps students stay focused and organized through smart scheduling, task prioritization, and the Pomodoro Technique.",
       image: "/images/project/StudyBuddyku.png",
       technologies: ["TypeScript", "React", "Tailwind CSS"],
       demoLink: "https://pomodoro-planner-two.vercel.app/",
