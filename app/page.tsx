@@ -189,7 +189,7 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
               <img
-                src="/images/certificate/Certificate - React Front End-1.png"
+                src="/images/certificate/Certificate - React Front End.png"
                 alt="React Front End Certificate"
                 className="h-full w-full object-contain"
               />

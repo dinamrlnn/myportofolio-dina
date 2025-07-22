@@ -575,6 +575,18 @@ class App {
         text: "HealthyDash",
       },
       {
+        image: "/images/project/17.png",
+        text: "HealthyDash",
+      },
+      {
+        image: "/images/project/18.png",
+        text: "HealthyDash",
+      },
+      {
+        image: "/images/project/19.png",
+        text: "HealthyDash",
+      },
+      {
         image: "/images/project/9.png",
         text: "Ongoing",
       },
