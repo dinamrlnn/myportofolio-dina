@@ -27,6 +27,132 @@ export default function Home() {
   // Data untuk Timeline
   const data = [
     {
+      title: "2025 - C Programming Bootcamp",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification demonstrates a solid foundation in{" "}
+            <strong>C Programming</strong>, covering fundamental concepts and
+            practical application.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/C Programming Bootcamp.png"
+                alt="C Programming Bootcamp Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Cross Platform Application Development",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification validates my ability to develop{" "}
+            <strong>cross-platform applications</strong>, essential for reaching
+            diverse user bases.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Cross Platform Application Development.png"
+                alt="Cross Platform Application Development Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Introduction Data Science With R",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification highlights my foundational understanding of{" "}
+            <strong>Data Science concepts using R</strong>, crucial for data
+            analysis and statistical modeling.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Introduction Data Science With R.png"
+                alt="Introduction Data Science With R Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Introduction to Software Engineer",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certificate establishes my understanding of{" "}
+            <strong>software engineering principles</strong>, from design to
+            deployment.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Introduction to Software Engineer.png"
+                alt="Introduction to Software Engineer Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Self-Paced Azure AI Basic Fundamental",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification showcases my understanding of{" "}
+            <strong>Azure AI fundamentals</strong>, including machine learning
+            and cognitive services.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Self-Paced Azure AI Basic Fundamental.png"
+                alt="Self-Paced Azure AI Basic Fundamental Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Website Development - Back End",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification confirms my expertise in{" "}
+            <strong>back-end web development</strong>, focusing on server-side
+            logic, databases, and APIs.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Dina Marlina Siagian - E-Certif SC Website Development_ Back End.png"
+                alt="Website Development - Back End Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "2025 - Data Visualization",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
@@ -73,29 +199,6 @@ export default function Home() {
       ),
     },
     {
-      title: "2025 - Responsive Website Design",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            With this certification, I've honed my skills in{" "}
-            <strong>
-              creating websites that seamlessly adapt to any screen size
-            </strong>
-            , ensuring an optimal user experience across devices.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Certificate of Course Completion - Responsive Website Design-1.png"
-                alt="Responsive Website Design Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
       title: "2025 - Python Programming",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
@@ -109,6 +212,50 @@ export default function Home() {
               <img
                 src="/images/certificate/Dina Marlina Siagian - Python.png"
                 alt="Python Programming Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Responsive Website Design",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            With this certification, I've honed my skills in{" "}
+            <strong>
+              creating websites that seamlessly adapt to any screen size
+            </strong>
+            , ensuring an optimal user experience across devices.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Certificate of Course Completion - Responsive Website.png"
+                alt="Responsive Website Design Certificate"
+                className="h-full w-full object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "2025 - Web Development: Front End",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification demonstrates my proficiency in{" "}
+            <strong>front-end web development</strong>, focusing on user
+            interfaces and experiences.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+              <img
+                src="/images/certificate/Certificate Website Development_ Front End-1.png"
+                alt="Web Development: Front End Certificate"
                 className="h-full w-full object-contain"
               />
             </div>
@@ -233,6 +380,14 @@ export default function Home() {
       image: "/images/project/Home.png",
       technologies: ["HTML", "CSS", "JavaScript"],
       demoLink: "https://dinasiagian.github.io/aroma-kopi-di-sudut-kota//",
+    },
+    {
+      title: "agiantravel",
+      description:
+        "I built AgianTravel as a solo project for a client to promote tourism in Bintan. This interactive website simplifies travel ticket bookings and supports local drivers by enhancing business visibility and operational efficiency.",
+      image: "/images/project/HealthyDash HomePage.png",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      demoLink: "https://dinasiagian.github.io/agiantravel/",
     },
     {
       title: "StudyBuddyku",
