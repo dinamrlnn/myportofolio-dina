@@ -385,7 +385,7 @@ export default function Home() {
       title: "agiantravel",
       description:
         "I built AgianTravel as a solo project for a client to promote tourism in Bintan. This interactive website simplifies travel ticket bookings and supports local drivers by enhancing business visibility and operational efficiency.",
-      image: "/images/project/HealthyDash HomePage.png",
+      image: "/images/project/agiantravel.png",
       technologies: ["HTML", "CSS", "JavaScript"],
       demoLink: "https://dinasiagian.github.io/agiantravel/",
     },
