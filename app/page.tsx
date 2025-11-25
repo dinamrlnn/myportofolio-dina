@@ -366,6 +366,31 @@ export default function Home() {
   // Data untuk Featured Projects
   const featuredProjects = [
     {
+      title: "Life Linker",
+      description:
+        "I contributed develop Life Linker, a PMI-integrated blood bank platform built with Golang and JSX + Tailwind CSS, enabling donor registration, real-time blood stock checks, compatible donor search, donation history tracking, and emergency notifications for faster, more efficient coordination.",
+      image: "/images/project/lifelinker.png",
+      technologies: ["Golang", "JSX", "Tailwind CSS"],
+      demoLink: "https://github.com/JuliusSinaga/LifeLinker-PPW11",
+    },
+    {
+      title: "Koperasi Bintang Tapanuli",
+      description:
+        "I contributed to developing a complete online ticketing system using PHP, MySQL, and Bootstrap, featuring route search, seat selection, checkout, e-ticketing, booking management, notifications, and an admin panel for handling schedules, vehicles, seat maps, payments, and reports.",
+      image: "/images/project/kbt.png",
+      technologies: ["PHP", "MySQL", "Bootstrap"],
+      demoLink: "https://github.com/LisbethPanjaitan/KBT",
+    },
+    {
+      title: "Semeru Ticket Reserevation",
+      description:
+        "I built an online reservation system for Mount Semeru trekking permits using PHP and a MySQL database on XAMPP, enabling users to register and book tickets easily, along with an admin section to create and manage detailed trekking route information.",
+      image: "/images/project/gunung semeru.png",
+      technologies: ["PHP", "MySQL", "XAMPP"],
+      demoLink:
+        "https://drive.google.com/drive/folders/1ErDfOV_c0m2cZsdOmHAAMm72fp0Wr5yr",
+    },
+    {
       title: "HealthyDash",
       description:
         "I built HealthyDash as a solo project to simplify healthy meal ordering and boost online visibility for health businesses through a user-friendly design.",
@@ -548,7 +573,7 @@ export default function Home() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/12hQFgMZ0Q2YuYo0yvfAOow53WgGfINm4/view?usp=sharing" // Pastikan path file CV Anda benar (misal: public/Dina_Marlina_Siagian_CV.pdf)
+              href="https://drive.google.com/file/d/1hc_lvRKXRHmJCE1w3CpQk1TnNb_rl9Xy/view?usp=sharing" // Pastikan path file CV Anda benar (misal: public/Dina_Marlina_Siagian_CV.pdf)
               download // Menambahkan atribut download untuk memaksa download
               className="px-10 py-3 rounded-lg border border-white inline-block cursor-pointer text-lg font-medium
                          text-white bg-transparent transition-colors duration-300
