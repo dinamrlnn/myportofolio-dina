@@ -576,15 +576,31 @@ class App {
       },
       {
         image: "/images/project/17.png",
-        text: "HealthyDash",
+        text: "agiantravel",
       },
       {
         image: "/images/project/18.png",
-        text: "HealthyDash",
+        text: "agiantravel",
       },
       {
         image: "/images/project/19.png",
-        text: "HealthyDash",
+        text: "agiantravel",
+      },
+      {
+        image: "/images/project/20.png",
+        text: "kbt",
+      },
+      {
+        image: "/images/project/21.png",
+        text: "kbt",
+      },
+      {
+        image: "/images/project/22.png",
+        text: "kbt",
+      },
+      {
+        image: "/images/project/23.png",
+        text: "life linker",
       },
       {
         image: "/images/project/9.png",

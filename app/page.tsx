@@ -24,302 +24,351 @@ import ScrollFloat from "./components/ScrollFloat/ScrollFloat";
 import MusicPlayer from "./components/MusicPlayer/MusicPlayer"; // IMPORT BARU: MusicPlayer
 
 export default function Home() {
-  // Data untuk Timeline
   const data = [
+    {
+      title: "2025 - Fundamental of Data Analysis",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification demonstrates a foundational understanding of{" "}
+            <strong>data analysis</strong>, including analytical techniques and
+            data interpretation skills.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
+              <img
+                src="/images/certificate/1.jpeg"
+                alt="Fundamental of Data Analysis Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - Front End Development (Coding Studio)",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification validates my ability to build{" "}
+            <strong>modern and responsive front-end interfaces</strong> using
+            essential web technologies.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
+              <img
+                src="/images/certificate/2.png"
+                alt="Front End Development Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - Web Development Fundamentals (IBM)",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification demonstrates understanding of{" "}
+            <strong>web development fundamentals</strong>, covering essential
+            concepts used in building web applications.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
+              <img
+                src="/images/certificate/3.png"
+                alt="Web Development Fundamentals IBM Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
     {
       title: "2025 - C Programming Bootcamp",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
             This certification demonstrates a solid foundation in{" "}
-            <strong>C Programming</strong>, covering fundamental concepts and
-            practical application.
+            <strong>C Programming</strong>, covering core concepts and practical
+            application.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
               <img
-                src="/images/certificate/C Programming Bootcamp.png"
+                src="/images/certificate/4.png"
                 alt="C Programming Bootcamp Certificate"
-                className="h-full w-full object-contain"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
+
     {
-      title: "2025 - Cross Platform Application Development",
+      title: "2025 - Data Classification and Summarization (Hacktiv8)",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certification validates my ability to develop{" "}
-            <strong>cross-platform applications</strong>, essential for reaching
-            diverse user bases.
+            This certification validates skills in{" "}
+            <strong>data classification and summarization</strong>, essential
+            for organizing and processing structured datasets.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
               <img
-                src="/images/certificate/Cross Platform Application Development.png"
-                alt="Cross Platform Application Development Certificate"
-                className="h-full w-full object-contain"
+                src="/images/certificate/5.png"
+                alt="Hacktiv8 Data Classification Certificate"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
+
     {
-      title: "2025 - Introduction Data Science With R",
+      title: "2025 - Certificate Data Classification and Summarization (IBM)",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certification highlights my foundational understanding of{" "}
-            <strong>Data Science concepts using R</strong>, crucial for data
-            analysis and statistical modeling.
+            This certification demonstrates proficiency in{" "}
+            <strong>classifying and summarizing data</strong> using IBM
+            industry-standard tools and workflows.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
               <img
-                src="/images/certificate/Introduction Data Science With R.png"
+                src="/images/certificate/6.png"
+                alt="IBM Data Classification Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - Classifying Data Using IBM Granite",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification validates my understanding of{" "}
+            <strong>data classification using IBM Granite models</strong>,
+            focusing on AI-assisted workflows for efficient data processing.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] bg-white rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/certificate/7.png"
+                alt="IBM Granite Classification Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - Introduction Data Science With R (DQLab)",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification highlights foundational knowledge of{" "}
+            <strong>Data Science using R</strong>, including data manipulation
+            and statistical modeling.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="aspect-[4/3] w-full max-w-[350px] bg-white rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/certificate/8.png"
                 alt="Introduction Data Science With R Certificate"
-                className="h-full w-full object-contain"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
-    {
-      title: "2025 - Introduction to Software Engineer",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certificate establishes my understanding of{" "}
-            <strong>software engineering principles</strong>, from design to
-            deployment.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Introduction to Software Engineer.png"
-                alt="Introduction to Software Engineer Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2025 - Self-Paced Azure AI Basic Fundamental",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certification showcases my understanding of{" "}
-            <strong>Azure AI fundamentals</strong>, including machine learning
-            and cognitive services.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Self-Paced Azure AI Basic Fundamental.png"
-                alt="Self-Paced Azure AI Basic Fundamental Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
+
     {
       title: "2025 - Website Development - Back End",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
             This certification confirms my expertise in{" "}
-            <strong>back-end web development</strong>, focusing on server-side
-            logic, databases, and APIs.
+            <strong>back-end web development</strong>, including server logic,
+            databases, and API integrations.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] w-full max-w-[350px] bg-white rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/images/certificate/Dina Marlina Siagian - E-Certif SC Website Development_ Back End.png"
-                alt="Website Development - Back End Certificate"
-                className="h-full w-full object-contain"
+                src="/images/certificate/9.png"
+                alt="Back End Development Certificate"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
-    {
-      title: "2025 - Data Visualization",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certification solidifies my expertise in{" "}
-            <strong>
-              transforming complex data into clear, impactful visual stories
-            </strong>
-            , enabling better insights and decision-making.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Certificate - Data Visualization.png"
-                alt="Data Visualization Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
+
     {
       title: "2025 - React Front End",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certificate demonstrates my proficiency in{" "}
-            <strong>
-              building dynamic and responsive user interfaces using React
-            </strong>
-            , focusing on modern web development practices.
+            This certificate demonstrates proficiency in building{" "}
+            <strong>dynamic and responsive interfaces using React</strong>.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] bg-white w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/images/certificate/Certificate - React Front End.png"
+                src="/images/certificate/10.png"
                 alt="React Front End Certificate"
-                className="h-full w-full object-contain"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
-    {
-      title: "2025 - Python Programming",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certificate signifies my strong foundation in{" "}
-            <strong>Python programming</strong>, essential for data analysis,
-            web development, and automation tasks.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Dina Marlina Siagian - Python.png"
-                alt="Python Programming Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
+
     {
       title: "2025 - Responsive Website Design",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            With this certification, I've honed my skills in{" "}
-            <strong>
-              creating websites that seamlessly adapt to any screen size
-            </strong>
-            , ensuring an optimal user experience across devices.
+            This certification demonstrates the ability to create{" "}
+            <strong>fully responsive websites</strong> optimized for all device
+            sizes.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] bg-white w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/images/certificate/Certificate of Course Completion - Responsive Website.png"
-                alt="Responsive Website Design Certificate"
-                className="h-full w-full object-contain"
+                src="/images/certificate/11.png"
+                alt="Responsive Web Design Certificate"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
+
     {
-      title: "2025 - Web Development: Front End",
+      title: "2025 - Data Analisis (Micro Skill)",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification validates competency in{" "}
+            <strong>data analysis</strong>, covering foundational techniques for
+            effective data processing.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="bg-white aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/certificate/12.png"
+                alt="Data Analisis Micro Skill Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - AI Software Development (Simplilearn)",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification demonstrates understanding of{" "}
+            <strong>AI software development</strong>, including intelligent
+            system design and machine learning applications.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="bg-white aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/certificate/13.png"
+                alt="AI Software Development Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - Del English Club Certificate",
+      content: (
+        <div className="max-w-[400px] mx-auto p-4">
+          <p className="mb-8 text-xs font-normal text-white md:text-sm">
+            This certification reflects active participation in the{" "}
+            <strong>Del English Club</strong>, strengthening communication
+            abilities and English proficiency.
+          </p>
+          <div className="flex justify-center items-center">
+            <div className="bg-white aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/images/certificate/14.png"
+                alt="Del English Club Certificate"
+                className="object-contain h-full w-full"
+              />
+            </div>
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "2025 - Python (Kaggle)",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
             This certification demonstrates my proficiency in{" "}
-            <strong>front-end web development</strong>, focusing on user
-            interfaces and experiences.
+            <strong>Python programming</strong>, focusing on data manipulation,
+            analysis, and practical coding skills.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
               <img
-                src="/images/certificate/Certificate Website Development_ Front End-1.png"
-                alt="Web Development: Front End Certificate"
-                className="h-full w-full object-contain"
+                src="/images/certificate/15.png"
+                alt="Python Certificate"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
         </div>
       ),
     },
+
     {
-      title: "2025 - Introduction to Programming",
+      title: "2025 - Introduction to Software Engineer (RevoU)",
       content: (
         <div className="max-w-[400px] mx-auto p-4">
           <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            A fundamental certification establishing my core understanding of{" "}
-            <strong>programming concepts and logic</strong>, crucial for any
-            development path.
+            This certification establishes my understanding of{" "}
+            <strong>software engineering principles</strong>, including
+            workflows and industry best practices.
           </p>
           <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
+            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden bg-white shadow-lg">
               <img
-                src="/images/certificate/Dina Marlina Siagian - Intro to Programming.png"
-                alt="Introduction to Programming Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2025 - Introduction to UX Research",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            This certificate highlights my ability to conduct{" "}
-            <strong>effective UX research</strong>, gathering insights to create
-            user-centric designs.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Dina Marlina Siagian - E-Certif SC Introduction to UX Research MySkill-1.png"
-                alt="Introduction to UX Research Certificate"
-                className="h-full w-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "2023/2024 - Del English Club",
-      content: (
-        <div className="max-w-[400px] mx-auto p-4">
-          <p className="mb-8 text-xs font-normal text-white md:text-sm">
-            My engagement and achievement in the{" "}
-            <strong>Del English Club</strong> reflect my commitment to enhancing
-            communication and language skills.
-          </p>
-          <div className="flex justify-center items-center">
-            <div className="aspect-[4/3] w-full max-w-[350px] rounded-lg overflow-hidden shadow-lg bg-white">
-              <img
-                src="/images/certificate/Del English Club.png"
-                alt="Del English Club Certificate"
-                className="h-full w-full object-contain"
+                src="/images/certificate/16.png"
+                alt="RevoU Software Engineer Certificate"
+                className="object-contain h-full w-full"
               />
             </div>
           </div>
@@ -353,14 +402,21 @@ export default function Home() {
   const technologies = [
     { name: "HTML", icon: "/images/tech/html.png" },
     { name: "CSS", icon: "/images/tech/css.png" },
-    { name: "JavaScript", icon: "/images/tech/java.png" },
+    { name: "JavaScript", icon: "/images/tech/javascript.png" },
+    { name: "TypeScript", icon: "/images/tech/typescript.png" },
     { name: "React", icon: "/images/tech/react.png" },
     { name: "Next.js", icon: "/images/tech/nextjs.png" },
     { name: "Tailwind CSS", icon: "/images/tech/tailwind.png" },
+    { name: "Bootstrap", icon: "/images/tech/bootstrap.png" },
     { name: "Figma", icon: "/images/tech/figma.png" },
     { name: "Python", icon: "/images/tech/python.png" },
     { name: "SQL", icon: "/images/tech/sql.png" },
+    { name: "MySQL", icon: "/images/tech/mysql.png" },
+    { name: "MongoDB", icon: "/images/tech/mongodb.png" },
     { name: "C", icon: "/images/tech/c.png" },
+    { name: "Java", icon: "/images/tech/java.png" },
+    { name: "Golang", icon: "/images/tech/golang.png" },
+    { name: "Laragon", icon: "/images/tech/laragon.png" },
   ];
 
   // Data untuk Featured Projects
@@ -496,7 +552,11 @@ export default function Home() {
         }}
       />
       {/* Section Pertama: Home Screen (Intro & Lanyard) - Tidak di-ScrollFloat agar selalu terlihat */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between min-h-screen px-4 z-10 relative">
+      {/* TAMBAHAN: id="home" */}
+      <div
+        id="home"
+        className="container mx-auto flex flex-col md:flex-row items-center justify-between min-h-screen px-4 z-10 relative"
+      >
         {/* Kolom Kiri: Konten Teks */}
         <div className="w-full md:w-1/2 flex flex-col justify-center py-16 md:py-0">
           {/* Driven by a passion for ... (Rotating Text) */}
@@ -553,7 +613,7 @@ export default function Home() {
             textAlign="left"
           />
           <BlurText
-            text="I’m a 5th-semester Information Systems student at the Del Institute of Technology with a strong passion for website design, UI/UX, data analysis, and software engineering. I enjoy turning ideas into intuitive digital experiences and am currently deepening my knowledge in designing user-centered websites and interfaces."
+            text="I'm a 5th-semester Information Systems student at the Del Institute of Technology with a strong passion for web developer design, and data analysis. I enjoy turning ideas into intuitive digital experiences and am currently deepening my knowledge in designing user-centered websites and interfaces."
             delay={100}
             animateBy="words"
             direction="top"
@@ -573,8 +633,8 @@ export default function Home() {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1hc_lvRKXRHmJCE1w3CpQk1TnNb_rl9Xy/view?usp=sharing" // Pastikan path file CV Anda benar (misal: public/Dina_Marlina_Siagian_CV.pdf)
-              download // Menambahkan atribut download untuk memaksa download
+              href="https://drive.google.com/file/d/1hc_lvRKXRHmJCE1w3CpQk1TnNb_rl9Xy/view?usp=sharing"
+              download
               className="px-10 py-3 rounded-lg border border-white inline-block cursor-pointer text-lg font-medium
                          text-white bg-transparent transition-colors duration-300
                          hover:text-[#0a0a0a] hover:bg-[#96d2d9] hover:border-[#96d2d9]"
@@ -582,135 +642,150 @@ export default function Home() {
               Download CV
             </a>
           </div>
-        </div>{" "}
+        </div>
         <div className="w-full md:w-1/2 flex justify-center items-center mt-12 md:mt-0 min-h-[400px]">
-          {" "}
           <Lanyard position={[0, 0, 13]} gravity={[0, -40, 0]} />
         </div>
-      </div>{" "}
+      </div>
       <div className="w-full bg-[#0a0a0a] py-12 px-4 z-10">
         <FlowingMenu items={demoItems} />
       </div>
       {/* Section Timeline (My Certificates) */}
-      <ScrollFloat
-        animationDuration={1}
-        ease="back.inOut(2)"
-        scrollStart="top center"
-        scrollEnd="bottom top"
-        stagger={0.05}
-      >
-        <div className="w-full bg-black/80 py-12 px-4 z-10">
-          <Timeline data={data} />
-        </div>
-      </ScrollFloat>
-      {/* NEW Section: Language & Framework */}
-      <ScrollFloat
-        animationDuration={1}
-        ease="back.inOut(2)"
-        scrollStart="top center"
-        scrollEnd="bottom top"
-        stagger={0.05}
-      >
-        <section className="w-full bg-black/80 py-16 px-4 z-10">
-          <div className="container mx-auto text-center">
-            <h2 className="text-4xl font-semibold text-white mb-4">
-              Languages & Frameworks
-            </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-12">
-              My versatile toolkit includes these languages, frameworks, and
-              tools that empower me to build robust and engaging digital
-              solutions.
-            </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
-              {technologies.map((tech, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col items-center p-4 rounded-lg bg-[#1a1a1a] hover:bg-[#2a2a2a] transition-colors duration-300 transform hover:scale-105"
-                >
-                  {tech.icon ? (
-                    <Image
-                      src={tech.icon}
-                      alt={tech.name}
-                      width={64}
-                      height={64}
-                      className="mb-3 object-contain"
-                    />
-                  ) : (
-                    <div className="w-16 h-16 flex items-center justify-center bg-[#96d2d9] rounded-full mb-3">
-                      <span className="text-black text-xl font-bold">
-                        {tech.name.substring(0, 2)}{" "}
-                      </span>
-                    </div>
-                  )}
-                  <p className="text-white text-lg font-medium text-center">
-                    {tech.name}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      </ScrollFloat>
-      {/* Section Title & Description for Projects/CircularGallery */}
-      <ScrollFloat
-        animationDuration={1}
-        ease="back.inOut(2)"
-        scrollStart="top center"
-        scrollEnd="bottom top"
-        stagger={0.03}
-      >
-        <div className="w-full bg-black/80 py-12 px-4 text-center z-10">
-          <h2 className="text-4xl font-semibold text-white mb-4">Projects</h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Explore a selection of my recent projects, showcasing my expertise
-            in delivering innovative and engaging digital experiences.
-          </p>
-        </div>
-      </ScrollFloat>
-      {/* Section Featured Projects */}
-      <ScrollFloat
-        animationDuration={1}
-        ease="back.inOut(2)"
-        scrollStart="top center"
-        scrollEnd="bottom top"
-        stagger={0.1}
-      >
-        <section className="w-full bg-black/80 py-12 px-4 z-10">
-          <div className="container mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {featuredProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-              ))}
-            </div>
-
-            <div className="text-center mt-12">
-              <a
-                href="https://github.com/DinaSiagian"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center px-8 py-3 rounded-lg bg-[#96d2d9] text-black font-semibold hover:bg-[#72b1b8] transition-colors duration-300"
-              >
-                Check My Github <span className="ml-2">&rarr;</span>
-              </a>
-            </div>
-          </div>
-        </section>
-      </ScrollFloat>
-      {/* Section CircularGallery */}
-      <ScrollFloat
-        animationDuration={1}
-        ease="back.inOut(2)"
-        scrollStart="top center"
-        scrollEnd="bottom top"
-        stagger={0.03}
-      >
-        <div
-          style={{ height: "600px", position: "relative", zIndex: 10 }}
-          className="py-12 bg-black/80"
+      {/* TAMBAHAN: id="certificates" */}
+      <div id="certificates">
+        <ScrollFloat
+          animationDuration={1}
+          ease="back.inOut(2)"
+          scrollStart="top center"
+          scrollEnd="bottom top"
+          stagger={0.05}
         >
-          <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} />
-        </div>
-      </ScrollFloat>
+          <div className="w-full bg-black/80 py-12 px-4 z-10">
+            <Timeline data={data} />
+          </div>
+        </ScrollFloat>
+      </div>
+      {/* NEW Section: Language & Framework */}
+      {/* TAMBAHAN: id="technologies" */}
+      <div id="technologies">
+        <ScrollFloat
+          animationDuration={1}
+          ease="back.inOut(2)"
+          scrollStart="top center"
+          scrollEnd="bottom top"
+          stagger={0.05}
+        >
+          <section className="w-full bg-black/80 py-16 px-4 z-10">
+            <div className="container mx-auto text-center">
+              <h2 className="text-4xl font-semibold text-white mb-4">
+                Languages & Frameworks
+              </h2>
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-12">
+                My versatile toolkit includes these languages, frameworks, and
+                tools that empower me to build robust and engaging digital
+                solutions.
+              </p>
+
+              {/* Grid dengan justify-items-center untuk center semua card */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 justify-items-center max-w-6xl mx-auto">
+                {technologies.map((tech, index) => (
+                  <div
+                    key={index}
+                    className="flex flex-col items-center justify-center p-6 rounded-lg bg-[#1a1a1a] hover:bg-[#2a2a2a] transition-colors duration-300 transform hover:scale-105 w-full h-full min-h-[150px]"
+                  >
+                    {/* Container icon dengan ukuran tetap */}
+                    <div className="w-16 h-16 flex items-center justify-center mb-4 flex-shrink-0">
+                      {tech.icon ? (
+                        <Image
+                          src={tech.icon}
+                          alt={tech.name}
+                          width={64}
+                          height={64}
+                          className="object-contain w-full h-full"
+                        />
+                      ) : (
+                        <div className="w-16 h-16 flex items-center justify-center bg-[#96d2d9] rounded-full">
+                          <span className="text-black text-xl font-bold">
+                            {tech.name.substring(0, 2)}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Text dengan alignment center dan ukuran konsisten */}
+                    <p className="text-white text-base font-medium text-center leading-tight">
+                      {tech.name}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        </ScrollFloat>
+      </div>
+      {/* Section Title & Description for Projects/CircularGallery */}
+      {/* TAMBAHAN: id="projects" */}
+      <div id="projects">
+        <ScrollFloat
+          animationDuration={1}
+          ease="back.inOut(2)"
+          scrollStart="top center"
+          scrollEnd="bottom top"
+          stagger={0.03}
+        >
+          <div className="w-full bg-black/80 py-12 px-4 text-center z-10">
+            <h2 className="text-4xl font-semibold text-white mb-4">Projects</h2>
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+              Explore a selection of my recent projects, showcasing my expertise
+              in delivering innovative and engaging digital experiences.
+            </p>
+          </div>
+        </ScrollFloat>
+        {/* Section Featured Projects */}
+        <ScrollFloat
+          animationDuration={1}
+          ease="back.inOut(2)"
+          scrollStart="top center"
+          scrollEnd="bottom top"
+          stagger={0.1}
+        >
+          <section className="w-full bg-black/80 py-12 px-4 z-10">
+            <div className="container mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {featuredProjects.map((project, index) => (
+                  <ProjectCard key={index} project={project} />
+                ))}
+              </div>
+
+              <div className="text-center mt-12">
+                <a
+                  href="https://github.com/DinaSiagian"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-8 py-3 rounded-lg bg-[#96d2d9] text-black font-semibold hover:bg-[#72b1b8] transition-colors duration-300"
+                >
+                  Check My Github <span className="ml-2">&rarr;</span>
+                </a>
+              </div>
+            </div>
+          </section>
+        </ScrollFloat>
+        {/* Section CircularGallery */}
+        <ScrollFloat
+          animationDuration={1}
+          ease="back.inOut(2)"
+          scrollStart="top center"
+          scrollEnd="bottom top"
+          stagger={0.03}
+        >
+          <div
+            style={{ height: "600px", position: "relative", zIndex: 10 }}
+            className="py-12 bg-black/80"
+          >
+            <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} />
+          </div>
+        </ScrollFloat>
+      </div>
       <Footer />
       {/* Komponen Music Player */}
       {/* Sesuaikan `src` dengan jalur file musik Anda di folder `public/music` */}
